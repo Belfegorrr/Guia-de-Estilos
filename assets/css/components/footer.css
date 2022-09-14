@@ -1,0 +1,39 @@
+.rodape {
+  padding: 1.5rem 0 2.5rem 0;
+
+  background-color: var(--branco);
+  background-image: url(../../img/vector-amarelo.svg);
+  background-position: top -11rem right;
+  background-repeat: no-repeat;
+}
+.rodape__logo {
+  max-width: 11.125rem;
+
+  margin-bottom: 1.25rem;
+}
+
+.rodape__social {
+  display: flex;
+
+  margin-bottom: 2rem;
+}
+.rodape__social-midia {
+  display: inline-block;
+
+  width: 1.625rem;
+  height: 1.625rem;
+
+  margin-right: 1.625rem;
+}
+.rodape__unidade {
+  margin-bottom: 2rem;
+}
+.rodape__unidade-titulo {
+  color: var(--preto);
+  font-size: var(--tamanho-titulo);
+  font-weight: var(--peso-botao);
+
+  display: block;
+
+  margin-bottom: 0.5rem;
+}

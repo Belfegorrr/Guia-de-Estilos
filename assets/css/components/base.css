@@ -1,0 +1,60 @@
+@import url(./botoes.css);
+@import url(./_reset.css);
+@import url(./input.css);
+@import url(./cartao.css);
+@import url(./item.css);
+@import url(./produto.css);
+@import url(./video.css);
+@import url(./cabecalho.css);
+@import url(./footer.css);
+@import url(./chamada.css);
+@import url(./como-conseguir.css);
+@import url(./ofertas.css);
+
+:root {
+  --amarelo-botao: #ffcb47;
+  --amarelo-shadow: #ffbc473d;
+  --preto-shadow: #0000000f;
+  --branco: #ffffff;
+  --cinza: #909090;
+  --preto: #202020;
+
+  --familia-corpo: 'Montserrat';
+  --familia-titulo-destaque: 'Elsie Swash Caps';
+
+  --peso-titulo-destaque: 900;
+  --peso-botao: 700;
+
+  --tamanho-corpo: 1rem;
+  --tamanho-titulo: 1.375rem;
+  --tamanho-titulo-destaque: 2rem;
+}
+body {
+  background: url(../../img/fundo.svg), url(../../img/Vector.png);
+  background-position: center;
+  color: var(--cinza);
+  font-family: var(--familia-corpo);
+}
+.container {
+  padding: 0 1rem;
+}
+.titulo {
+  font-size: var(--tamanho-titulo);
+}
+.titulo--destaque {
+  font-family: var(--familia-titulo-destaque);
+  color: var(--preto);
+  font-size: var(--tamanho-titulo-destaque);
+  font-weight: var(--peso-titulo-destaque);
+  display: block;
+  margin: 0.75rem 0;
+}
+.alinhamento--esquerda {
+  text-align: left;
+}
+.alinhamento--meio {
+  text-align: center;
+}
+.texto {
+  line-height: 26px;
+}
